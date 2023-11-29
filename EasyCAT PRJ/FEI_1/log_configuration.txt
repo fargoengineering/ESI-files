@@ -1,0 +1,353 @@
+
+Easy Configurator, configuration engine  V_3_3 
+
+log created on Thu Aug 31 11:07:28 2023
+
+Analyzing the project file
+
+Easy Configurator project FEI_1.prj
+
+OUTPUTS_TAG
+Line 4 --- Output1                 uint64_t
+Line 5 --- Output2                 uint64_t
+Line 6 --- Output3                 uint64_t
+Line 7 --- Output4                 uint64_t
+Line 8 --- Output5                 uint64_t
+Line 9 --- Output6                 uint64_t
+Line 10 --- Output7                 uint64_t
+Line 11 --- Output8                 uint64_t
+Line 12 --- Output9                 uint64_t
+Line 13 --- Output10                uint64_t
+Line 14 --- Output11                uint64_t
+Line 15 --- Output12                uint64_t
+Line 16 --- Output13                uint64_t
+Line 17 --- Output14                uint64_t
+Line 18 --- Output15                uint64_t
+Line 19 --- Output16                uint64_t
+INPUTS_TAG
+Line 21 --- Input1                  uint64_t
+Line 22 --- Input2                  uint64_t
+Line 23 --- Input3                  uint64_t
+Line 24 --- Input4                  uint64_t
+Line 25 --- Input5                  uint64_t
+Line 26 --- Input6                  uint64_t
+Line 27 --- Input7                  uint64_t
+Line 28 --- Input8                  uint64_t
+Line 29 --- Input9                  uint64_t
+Line 30 --- Input10                 uint64_t
+Line 31 --- Input11                 uint64_t
+Line 32 --- Input12                 uint64_t
+Line 33 --- Input13                 uint64_t
+Line 34 --- Input14                 uint64_t
+Line 35 --- Input15                 uint64_t
+Line 36 --- Input16                 uint64_t
+INFO_TAG
+0x00000EEA
+Fargo Engineering Inc.
+0xBEEF
+0x1
+FEI_ECAT_SLAVE
+FEI_ECAT_SLAVE
+END_TAG
+
+The FEI_1.prj configuration file is correct
+
+ByteNumOut 128
+ByteNumIn  128
+PdoNumOut  16
+PdoNumIn   16
+
+Creating the FEI_1.xml file
+
+PROJECT_TAG   FEI_1.prj
+VENDOID_TAG   00000EEA
+VEN_NAM_TAG   Fargo Engineering Inc.
+PRO_COD_TAG   BEEF
+REVISIO_TAG   1
+DEV_NAM_TAG   FEI_ECAT_SLAVE
+DEV_NAM_TAG   FEI_ECAT_SLAVE
+
+FIRST_TAG
+
+Output entries
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>1</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Output1</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>2</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Output2</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>3</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Output3</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>4</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Output4</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>5</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Output5</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>6</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Output6</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>7</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Output7</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>8</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Output8</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>9</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Output9</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>10</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Output10</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>11</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Output11</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>12</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Output12</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>13</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Output13</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>14</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Output14</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>15</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Output15</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>16</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Output16</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+
+Input entries
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>1</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Input1</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>2</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Input2</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>3</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Input3</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>4</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Input4</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>5</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Input5</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>6</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Input6</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>7</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Input7</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>8</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Input8</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>9</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Input9</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>10</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Input10</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>11</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Input11</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>12</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Input12</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>13</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Input13</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>14</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Input14</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>15</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Input15</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>16</SubIndex>
+            <BitLen>64</BitLen>
+            <Name>Input16</Name>
+            <DataType>ULINT</DataType>
+          </Entry>
+
+LAST_TAG
+
+The FEI_1.xml file has been created
+
+Creating the FEI_1.h file
+
+#define CUST_BYTE_NUM_OUT	128
+#define CUST_BYTE_NUM_IN	128
+#define TOT_BYTE_NUM_ROUND_OUT	128
+#define TOT_BYTE_NUM_ROUND_IN	128
+
+
+Output entries
+		uint64_t    Output1;
+		uint64_t    Output2;
+		uint64_t    Output3;
+		uint64_t    Output4;
+		uint64_t    Output5;
+		uint64_t    Output6;
+		uint64_t    Output7;
+		uint64_t    Output8;
+		uint64_t    Output9;
+		uint64_t    Output10;
+		uint64_t    Output11;
+		uint64_t    Output12;
+		uint64_t    Output13;
+		uint64_t    Output14;
+		uint64_t    Output15;
+		uint64_t    Output16;
+
+Input entries
+		uint64_t    Input1;
+		uint64_t    Input2;
+		uint64_t    Input3;
+		uint64_t    Input4;
+		uint64_t    Input5;
+		uint64_t    Input6;
+		uint64_t    Input7;
+		uint64_t    Input8;
+		uint64_t    Input9;
+		uint64_t    Input10;
+		uint64_t    Input11;
+		uint64_t    Input12;
+		uint64_t    Input13;
+		uint64_t    Input14;
+		uint64_t    Input15;
+		uint64_t    Input16;
+
+The FEI_1.h file has been created
+
+Creating the FEI_1.bin file
+
+
+The FEI_1.bin file has been created

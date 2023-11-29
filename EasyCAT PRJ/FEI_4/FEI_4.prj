@@ -1,0 +1,20 @@
+FEI_4
+OUTPUTS_TAG
+type
+uint32_t
+Output1
+uint32_t
+INPUTS_TAG
+Slot1
+uint32_t
+Slot1_missed
+uint32_t
+Slot1_valid
+uint32_t
+INFO_TAG
+0x00000EEA
+Fargo Engineering Inc.
+0xBEEF
+0x11
+FEI_SLAVE_v7
+END_TAG

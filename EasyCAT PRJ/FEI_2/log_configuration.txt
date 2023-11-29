@@ -1,0 +1,92 @@
+
+Easy Configurator, configuration engine  V_3_3 
+
+log created on Wed Sep 06 15:42:52 2023
+
+Analyzing the project file
+
+Easy Configurator project FEI_2.prj
+
+OUTPUTS_TAG
+Line 4 --- type                    uint8_t
+INPUTS_TAG
+Line 6 --- Slot1                   uint32_t
+Line 7 --- Slot1_counter           uint32_t
+INFO_TAG
+0x00000EEA
+Fargo Engineering Inc.
+0x0101
+0x5
+FEI_SLAVE_Count
+FEI_SLAVE_Count
+END_TAG
+
+The FEI_2.prj configuration file is correct
+
+ByteNumOut 1
+ByteNumIn  8
+PdoNumOut  1
+PdoNumIn   2
+
+Creating the FEI_2.xml file
+
+PROJECT_TAG   FEI_2.prj
+VENDOID_TAG   00000EEA
+VEN_NAM_TAG   Fargo Engineering Inc.
+PRO_COD_TAG   0101
+REVISIO_TAG   5
+DEV_NAM_TAG   FEI_SLAVE_Count
+DEV_NAM_TAG   FEI_SLAVE_Count
+
+FIRST_TAG
+
+Output entries
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>1</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>type</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+
+Input entries
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>1</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot1</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>2</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot1_counter</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+
+LAST_TAG
+
+The FEI_2.xml file has been created
+
+Creating the FEI_2.h file
+
+#define CUST_BYTE_NUM_OUT	1
+#define CUST_BYTE_NUM_IN	8
+#define TOT_BYTE_NUM_ROUND_OUT	4
+#define TOT_BYTE_NUM_ROUND_IN	8
+
+
+Output entries
+		uint8_t     type;
+
+Input entries
+		uint32_t    Slot1;
+		uint32_t    Slot1_counter;
+
+The FEI_2.h file has been created
+
+Creating the FEI_2.bin file
+
+
+The FEI_2.bin file has been created

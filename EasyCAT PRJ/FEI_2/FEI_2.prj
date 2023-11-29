@@ -1,0 +1,16 @@
+FEI_2
+OUTPUTS_TAG
+type
+uint8_t
+INPUTS_TAG
+Slot1
+uint32_t
+Slot1_counter
+uint32_t
+INFO_TAG
+0x00000EEA
+Fargo Engineering Inc.
+0x0101
+0x5
+FEI_SLAVE_Count
+END_TAG

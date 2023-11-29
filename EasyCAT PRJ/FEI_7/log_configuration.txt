@@ -1,0 +1,1793 @@
+
+Easy Configurator, configuration engine  V_3_3 
+
+log created on Mon Oct 02 15:56:37 2023
+
+Analyzing the project file
+
+Easy Configurator project FEI_7.prj
+
+OUTPUTS_TAG
+Line 4 --- Slot1Command            uint8_t
+Line 5 --- Slot2Command            uint8_t
+Line 6 --- Slot3Command            uint8_t
+Line 7 --- Slot4Command            uint8_t
+Line 8 --- Slot5Command            uint8_t
+Line 9 --- Slot6Command            uint8_t
+Line 10 --- Slot7Command            uint8_t
+Line 11 --- Slot8Command            uint8_t
+Line 12 --- Slot9Command            uint8_t
+Line 13 --- Slot10Command           uint8_t
+Line 14 --- Slot11Command           uint8_t
+Line 15 --- Slot12Command           uint8_t
+Line 16 --- Slot13Command           uint8_t
+Line 17 --- Slot14Command           uint8_t
+Line 18 --- Slot15Command           uint8_t
+Line 19 --- Slot16Command           uint8_t
+Line 20 --- Slot17Command           uint8_t
+Line 21 --- Slot18Command           uint8_t
+Line 22 --- Slot19Command           uint8_t
+Line 23 --- Slot20Command           uint8_t
+Line 24 --- Slot21Command           uint8_t
+Line 25 --- Slot22Command           uint8_t
+Line 26 --- Slot23Command           uint8_t
+Line 27 --- Slot24Command           uint8_t
+Line 28 --- Slot25Command           uint8_t
+Line 29 --- Slot26Command           uint8_t
+Line 30 --- Slot27Command           uint8_t
+Line 31 --- Slot28Command           uint8_t
+Line 32 --- Slot29Command           uint8_t
+Line 33 --- Slot30Command           uint8_t
+Line 34 --- Slot31Command           uint8_t
+Line 35 --- Slot32Command           uint8_t
+Line 36 --- Slot1Data               uint32_t
+Line 37 --- Slot2Data               uint32_t
+Line 38 --- Slot3Data               uint32_t
+Line 39 --- Slot4Data               uint32_t
+Line 40 --- Slot5Data               uint32_t
+Line 41 --- Slot6Data               uint32_t
+Line 42 --- Slot7Data               uint32_t
+Line 43 --- Slot8Data               uint32_t
+Line 44 --- Slot9Data               uint32_t
+Line 45 --- Slot10Data              uint32_t
+Line 46 --- Slot11Data              uint32_t
+Line 47 --- Slot12Data              uint32_t
+Line 48 --- Slot13Data              uint32_t
+Line 49 --- Slot14Data              uint32_t
+Line 50 --- Slot15Data              uint32_t
+Line 51 --- Slot16Data              uint32_t
+Line 52 --- Slot17Data              uint32_t
+Line 53 --- Slot18Data              uint32_t
+Line 54 --- Slot19Data              uint32_t
+Line 55 --- Slot20Data              uint32_t
+Line 56 --- Slot21Data              uint32_t
+Line 57 --- Slot22Data              uint32_t
+Line 58 --- Slot23Data              uint32_t
+Line 59 --- Slot24Data              uint32_t
+Line 60 --- Slot25Data              uint32_t
+Line 61 --- Slot26Data              uint32_t
+Line 62 --- Slot27Data              uint32_t
+Line 63 --- Slot28Data              uint32_t
+Line 64 --- Slot29Data              uint32_t
+Line 65 --- Slot30Data              uint32_t
+Line 66 --- Slot31Data              uint32_t
+Line 67 --- Slot32Data              uint32_t
+Line 68 --- Slot1Aux                uint8_t
+Line 69 --- Slot2Aux                uint8_t
+Line 70 --- Slot3Aux                uint8_t
+Line 71 --- Slot4Aux                uint8_t
+Line 72 --- Slot5Aux                uint8_t
+Line 73 --- Slot6Aux                uint8_t
+Line 74 --- Slot7Aux                uint8_t
+Line 75 --- Slot8Aux                uint8_t
+Line 76 --- Slot9Aux                uint8_t
+Line 77 --- Slot10Aux               uint8_t
+Line 78 --- Slot11Aux               uint8_t
+Line 79 --- Slot12Aux               uint8_t
+Line 80 --- Slot13Aux               uint8_t
+Line 81 --- Slot14Aux               uint8_t
+Line 82 --- Slot15Aux               uint8_t
+Line 83 --- Slot16Aux               uint8_t
+Line 84 --- Slot17Aux               uint8_t
+Line 85 --- Slot18Aux               uint8_t
+Line 86 --- Slot19Aux               uint8_t
+Line 87 --- Slot20Aux               uint8_t
+Line 88 --- Slot21Aux               uint8_t
+Line 89 --- Slot22Aux               uint8_t
+Line 90 --- Slot23Aux               uint8_t
+Line 91 --- Slot24Aux               uint8_t
+Line 92 --- Slot25Aux               uint8_t
+Line 93 --- Slot26Aux               uint8_t
+Line 94 --- Slot27Aux               uint8_t
+Line 95 --- Slot28Aux               uint8_t
+Line 96 --- Slot29Aux               uint8_t
+Line 97 --- Slot30Aux               uint8_t
+Line 98 --- Slot31Aux               uint8_t
+Line 99 --- Slot32Aux               uint8_t
+INPUTS_TAG
+Line 101 --- Slot1Command            uint8_t
+Line 102 --- Slot2Command            uint8_t
+Line 103 --- Slot3Command            uint8_t
+Line 104 --- Slot4Command            uint8_t
+Line 105 --- Slot5Command            uint8_t
+Line 106 --- Slot6Command            uint8_t
+Line 107 --- Slot7Command            uint8_t
+Line 108 --- Slot8Command            uint8_t
+Line 109 --- Slot9Command            uint8_t
+Line 110 --- Slot10Command           uint8_t
+Line 111 --- Slot11Command           uint8_t
+Line 112 --- Slot12Command           uint8_t
+Line 113 --- Slot13Command           uint8_t
+Line 114 --- Slot14Command           uint8_t
+Line 115 --- Slot15Command           uint8_t
+Line 116 --- Slot16Command           uint8_t
+Line 117 --- Slot17Command           uint8_t
+Line 118 --- Slot18Command           uint8_t
+Line 119 --- Slot19Command           uint8_t
+Line 120 --- Slot20Command           uint8_t
+Line 121 --- Slot21Command           uint8_t
+Line 122 --- Slot22Command           uint8_t
+Line 123 --- Slot23Command           uint8_t
+Line 124 --- Slot24Command           uint8_t
+Line 125 --- Slot25Command           uint8_t
+Line 126 --- Slot26Command           uint8_t
+Line 127 --- Slot27Command           uint8_t
+Line 128 --- Slot28Command           uint8_t
+Line 129 --- Slot29Command           uint8_t
+Line 130 --- Slot30Command           uint8_t
+Line 131 --- Slot31Command           uint8_t
+Line 132 --- Slot32Command           uint8_t
+Line 133 --- Slot1Data               uint32_t
+Line 134 --- Slot2Data               uint32_t
+Line 135 --- Slot3Data               uint32_t
+Line 136 --- Slot4Data               uint32_t
+Line 137 --- Slot5Data               uint32_t
+Line 138 --- Slot6Data               uint32_t
+Line 139 --- Slot7Data               uint32_t
+Line 140 --- Slot8Data               uint32_t
+Line 141 --- Slot9Data               uint32_t
+Line 142 --- Slot10Data              uint32_t
+Line 143 --- Slot11Data              uint32_t
+Line 144 --- Slot12Data              uint32_t
+Line 145 --- Slot13Data              uint32_t
+Line 146 --- Slot14Data              uint32_t
+Line 147 --- Slot15Data              uint32_t
+Line 148 --- Slot16Data              uint32_t
+Line 149 --- Slot17Data              uint32_t
+Line 150 --- Slot18Data              uint32_t
+Line 151 --- Slot19Data              uint32_t
+Line 152 --- Slot20Data              uint32_t
+Line 153 --- Slot21Data              uint32_t
+Line 154 --- Slot22Data              uint32_t
+Line 155 --- Slot23Data              uint32_t
+Line 156 --- Slot24Data              uint32_t
+Line 157 --- Slot25Data              uint32_t
+Line 158 --- Slot26Data              uint32_t
+Line 159 --- Slot27Data              uint32_t
+Line 160 --- Slot28Data              uint32_t
+Line 161 --- Slot29Data              uint32_t
+Line 162 --- Slot30Data              uint32_t
+Line 163 --- Slot31Data              uint32_t
+Line 164 --- Slot32Data              uint32_t
+Line 165 --- Slot1Aux                uint8_t
+Line 166 --- Slot2Aux                uint8_t
+Line 167 --- Slot3Aux                uint8_t
+Line 168 --- Slot4Aux                uint8_t
+Line 169 --- Slot5Aux                uint8_t
+Line 170 --- Slot6Aux                uint8_t
+Line 171 --- Slot7Aux                uint8_t
+Line 172 --- Slot8Aux                uint8_t
+Line 173 --- Slot9Aux                uint8_t
+Line 174 --- Slot10Aux               uint8_t
+Line 175 --- Slot11Aux               uint8_t
+Line 176 --- Slot12Aux               uint8_t
+Line 177 --- Slot13Aux               uint8_t
+Line 178 --- Slot14Aux               uint8_t
+Line 179 --- Slot15Aux               uint8_t
+Line 180 --- Slot16Aux               uint8_t
+Line 181 --- Slot17Aux               uint8_t
+Line 182 --- Slot18Aux               uint8_t
+Line 183 --- Slot19Aux               uint8_t
+Line 184 --- Slot20Aux               uint8_t
+Line 185 --- Slot21Aux               uint8_t
+Line 186 --- Slot22Aux               uint8_t
+Line 187 --- Slot23Aux               uint8_t
+Line 188 --- Slot24Aux               uint8_t
+Line 189 --- Slot25Aux               uint8_t
+Line 190 --- Slot26Aux               uint8_t
+Line 191 --- Slot27Aux               uint8_t
+Line 192 --- Slot28Aux               uint8_t
+Line 193 --- Slot29Aux               uint8_t
+Line 194 --- Slot30Aux               uint8_t
+Line 195 --- Slot31Aux               uint8_t
+Line 196 --- Slot32Aux               uint8_t
+INFO_TAG
+0x00000EEA
+Fargo Engineering Inc.
+0xBEEF
+0x22
+FEI_SLAVE_v13
+FEI_SLAVE_v13
+END_TAG
+
+The FEI_7.prj configuration file is correct
+
+ByteNumOut 192
+ByteNumIn  192
+PdoNumOut  96
+PdoNumIn   96
+
+Creating the FEI_7.xml file
+
+PROJECT_TAG   FEI_7.prj
+VENDOID_TAG   00000EEA
+VEN_NAM_TAG   Fargo Engineering Inc.
+PRO_COD_TAG   BEEF
+REVISIO_TAG   22
+DEV_NAM_TAG   FEI_SLAVE_v13
+DEV_NAM_TAG   FEI_SLAVE_v13
+
+FIRST_TAG
+
+Output entries
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>1</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot1Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>2</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot2Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>3</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot3Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>4</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot4Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>5</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot5Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>6</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot6Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>7</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot7Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>8</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot8Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>9</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot9Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>10</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot10Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>11</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot11Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>12</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot12Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>13</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot13Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>14</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot14Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>15</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot15Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>16</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot16Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>17</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot17Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>18</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot18Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>19</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot19Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>20</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot20Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>21</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot21Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>22</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot22Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>23</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot23Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>24</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot24Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>25</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot25Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>26</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot26Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>27</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot27Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>28</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot28Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>29</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot29Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>30</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot30Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>31</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot31Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>32</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot32Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>33</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot1Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>34</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot2Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>35</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot3Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>36</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot4Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>37</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot5Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>38</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot6Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>39</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot7Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>40</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot8Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>41</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot9Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>42</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot10Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>43</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot11Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>44</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot12Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>45</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot13Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>46</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot14Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>47</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot15Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>48</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot16Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>49</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot17Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>50</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot18Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>51</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot19Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>52</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot20Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>53</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot21Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>54</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot22Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>55</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot23Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>56</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot24Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>57</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot25Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>58</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot26Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>59</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot27Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>60</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot28Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>61</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot29Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>62</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot30Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>63</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot31Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>64</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot32Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>65</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot1Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>66</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot2Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>67</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot3Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>68</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot4Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>69</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot5Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>70</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot6Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>71</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot7Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>72</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot8Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>73</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot9Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>74</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot10Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>75</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot11Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>76</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot12Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>77</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot13Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>78</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot14Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>79</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot15Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>80</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot16Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>81</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot17Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>82</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot18Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>83</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot19Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>84</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot20Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>85</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot21Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>86</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot22Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>87</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot23Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>88</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot24Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>89</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot25Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>90</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot26Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>91</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot27Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>92</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot28Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>93</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot29Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>94</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot30Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>95</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot31Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>96</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot32Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+
+Input entries
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>1</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot1Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>2</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot2Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>3</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot3Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>4</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot4Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>5</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot5Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>6</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot6Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>7</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot7Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>8</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot8Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>9</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot9Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>10</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot10Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>11</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot11Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>12</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot12Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>13</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot13Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>14</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot14Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>15</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot15Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>16</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot16Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>17</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot17Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>18</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot18Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>19</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot19Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>20</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot20Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>21</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot21Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>22</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot22Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>23</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot23Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>24</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot24Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>25</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot25Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>26</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot26Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>27</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot27Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>28</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot28Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>29</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot29Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>30</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot30Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>31</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot31Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>32</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot32Data</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>33</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot1Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>34</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot2Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>35</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot3Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>36</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot4Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>37</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot5Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>38</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot6Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>39</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot7Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>40</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot8Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>41</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot9Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>42</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot10Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>43</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot11Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>44</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot12Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>45</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot13Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>46</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot14Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>47</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot15Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>48</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot16Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>49</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot17Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>50</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot18Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>51</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot19Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>52</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot20Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>53</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot21Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>54</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot22Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>55</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot23Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>56</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot24Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>57</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot25Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>58</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot26Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>59</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot27Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>60</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot28Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>61</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot29Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>62</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot30Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>63</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot31Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>64</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot32Command</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>65</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot1Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>66</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot2Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>67</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot3Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>68</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot4Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>69</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot5Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>70</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot6Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>71</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot7Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>72</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot8Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>73</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot9Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>74</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot10Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>75</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot11Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>76</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot12Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>77</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot13Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>78</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot14Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>79</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot15Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>80</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot16Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>81</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot17Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>82</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot18Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>83</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot19Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>84</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot20Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>85</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot21Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>86</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot22Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>87</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot23Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>88</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot24Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>89</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot25Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>90</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot26Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>91</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot27Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>92</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot28Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>93</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot29Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>94</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot30Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>95</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot31Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>96</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Slot32Aux</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+
+LAST_TAG
+
+The FEI_7.xml file has been created
+
+Creating the FEI_7.h file
+
+#define CUST_BYTE_NUM_OUT	192
+#define CUST_BYTE_NUM_IN	192
+#define TOT_BYTE_NUM_ROUND_OUT	192
+#define TOT_BYTE_NUM_ROUND_IN	192
+
+
+Output entries
+		uint32_t    Slot1Data;
+		uint32_t    Slot2Data;
+		uint32_t    Slot3Data;
+		uint32_t    Slot4Data;
+		uint32_t    Slot5Data;
+		uint32_t    Slot6Data;
+		uint32_t    Slot7Data;
+		uint32_t    Slot8Data;
+		uint32_t    Slot9Data;
+		uint32_t    Slot10Data;
+		uint32_t    Slot11Data;
+		uint32_t    Slot12Data;
+		uint32_t    Slot13Data;
+		uint32_t    Slot14Data;
+		uint32_t    Slot15Data;
+		uint32_t    Slot16Data;
+		uint32_t    Slot17Data;
+		uint32_t    Slot18Data;
+		uint32_t    Slot19Data;
+		uint32_t    Slot20Data;
+		uint32_t    Slot21Data;
+		uint32_t    Slot22Data;
+		uint32_t    Slot23Data;
+		uint32_t    Slot24Data;
+		uint32_t    Slot25Data;
+		uint32_t    Slot26Data;
+		uint32_t    Slot27Data;
+		uint32_t    Slot28Data;
+		uint32_t    Slot29Data;
+		uint32_t    Slot30Data;
+		uint32_t    Slot31Data;
+		uint32_t    Slot32Data;
+		uint8_t     Slot1Command;
+		uint8_t     Slot2Command;
+		uint8_t     Slot3Command;
+		uint8_t     Slot4Command;
+		uint8_t     Slot5Command;
+		uint8_t     Slot6Command;
+		uint8_t     Slot7Command;
+		uint8_t     Slot8Command;
+		uint8_t     Slot9Command;
+		uint8_t     Slot10Command;
+		uint8_t     Slot11Command;
+		uint8_t     Slot12Command;
+		uint8_t     Slot13Command;
+		uint8_t     Slot14Command;
+		uint8_t     Slot15Command;
+		uint8_t     Slot16Command;
+		uint8_t     Slot17Command;
+		uint8_t     Slot18Command;
+		uint8_t     Slot19Command;
+		uint8_t     Slot20Command;
+		uint8_t     Slot21Command;
+		uint8_t     Slot22Command;
+		uint8_t     Slot23Command;
+		uint8_t     Slot24Command;
+		uint8_t     Slot25Command;
+		uint8_t     Slot26Command;
+		uint8_t     Slot27Command;
+		uint8_t     Slot28Command;
+		uint8_t     Slot29Command;
+		uint8_t     Slot30Command;
+		uint8_t     Slot31Command;
+		uint8_t     Slot32Command;
+		uint8_t     Slot1Aux;
+		uint8_t     Slot2Aux;
+		uint8_t     Slot3Aux;
+		uint8_t     Slot4Aux;
+		uint8_t     Slot5Aux;
+		uint8_t     Slot6Aux;
+		uint8_t     Slot7Aux;
+		uint8_t     Slot8Aux;
+		uint8_t     Slot9Aux;
+		uint8_t     Slot10Aux;
+		uint8_t     Slot11Aux;
+		uint8_t     Slot12Aux;
+		uint8_t     Slot13Aux;
+		uint8_t     Slot14Aux;
+		uint8_t     Slot15Aux;
+		uint8_t     Slot16Aux;
+		uint8_t     Slot17Aux;
+		uint8_t     Slot18Aux;
+		uint8_t     Slot19Aux;
+		uint8_t     Slot20Aux;
+		uint8_t     Slot21Aux;
+		uint8_t     Slot22Aux;
+		uint8_t     Slot23Aux;
+		uint8_t     Slot24Aux;
+		uint8_t     Slot25Aux;
+		uint8_t     Slot26Aux;
+		uint8_t     Slot27Aux;
+		uint8_t     Slot28Aux;
+		uint8_t     Slot29Aux;
+		uint8_t     Slot30Aux;
+		uint8_t     Slot31Aux;
+		uint8_t     Slot32Aux;
+
+Input entries
+		uint32_t    Slot1Data;
+		uint32_t    Slot2Data;
+		uint32_t    Slot3Data;
+		uint32_t    Slot4Data;
+		uint32_t    Slot5Data;
+		uint32_t    Slot6Data;
+		uint32_t    Slot7Data;
+		uint32_t    Slot8Data;
+		uint32_t    Slot9Data;
+		uint32_t    Slot10Data;
+		uint32_t    Slot11Data;
+		uint32_t    Slot12Data;
+		uint32_t    Slot13Data;
+		uint32_t    Slot14Data;
+		uint32_t    Slot15Data;
+		uint32_t    Slot16Data;
+		uint32_t    Slot17Data;
+		uint32_t    Slot18Data;
+		uint32_t    Slot19Data;
+		uint32_t    Slot20Data;
+		uint32_t    Slot21Data;
+		uint32_t    Slot22Data;
+		uint32_t    Slot23Data;
+		uint32_t    Slot24Data;
+		uint32_t    Slot25Data;
+		uint32_t    Slot26Data;
+		uint32_t    Slot27Data;
+		uint32_t    Slot28Data;
+		uint32_t    Slot29Data;
+		uint32_t    Slot30Data;
+		uint32_t    Slot31Data;
+		uint32_t    Slot32Data;
+		uint8_t     Slot1Command;
+		uint8_t     Slot2Command;
+		uint8_t     Slot3Command;
+		uint8_t     Slot4Command;
+		uint8_t     Slot5Command;
+		uint8_t     Slot6Command;
+		uint8_t     Slot7Command;
+		uint8_t     Slot8Command;
+		uint8_t     Slot9Command;
+		uint8_t     Slot10Command;
+		uint8_t     Slot11Command;
+		uint8_t     Slot12Command;
+		uint8_t     Slot13Command;
+		uint8_t     Slot14Command;
+		uint8_t     Slot15Command;
+		uint8_t     Slot16Command;
+		uint8_t     Slot17Command;
+		uint8_t     Slot18Command;
+		uint8_t     Slot19Command;
+		uint8_t     Slot20Command;
+		uint8_t     Slot21Command;
+		uint8_t     Slot22Command;
+		uint8_t     Slot23Command;
+		uint8_t     Slot24Command;
+		uint8_t     Slot25Command;
+		uint8_t     Slot26Command;
+		uint8_t     Slot27Command;
+		uint8_t     Slot28Command;
+		uint8_t     Slot29Command;
+		uint8_t     Slot30Command;
+		uint8_t     Slot31Command;
+		uint8_t     Slot32Command;
+		uint8_t     Slot1Aux;
+		uint8_t     Slot2Aux;
+		uint8_t     Slot3Aux;
+		uint8_t     Slot4Aux;
+		uint8_t     Slot5Aux;
+		uint8_t     Slot6Aux;
+		uint8_t     Slot7Aux;
+		uint8_t     Slot8Aux;
+		uint8_t     Slot9Aux;
+		uint8_t     Slot10Aux;
+		uint8_t     Slot11Aux;
+		uint8_t     Slot12Aux;
+		uint8_t     Slot13Aux;
+		uint8_t     Slot14Aux;
+		uint8_t     Slot15Aux;
+		uint8_t     Slot16Aux;
+		uint8_t     Slot17Aux;
+		uint8_t     Slot18Aux;
+		uint8_t     Slot19Aux;
+		uint8_t     Slot20Aux;
+		uint8_t     Slot21Aux;
+		uint8_t     Slot22Aux;
+		uint8_t     Slot23Aux;
+		uint8_t     Slot24Aux;
+		uint8_t     Slot25Aux;
+		uint8_t     Slot26Aux;
+		uint8_t     Slot27Aux;
+		uint8_t     Slot28Aux;
+		uint8_t     Slot29Aux;
+		uint8_t     Slot30Aux;
+		uint8_t     Slot31Aux;
+		uint8_t     Slot32Aux;
+
+The FEI_7.h file has been created
+
+Creating the FEI_7.bin file
+
+
+The FEI_7.bin file has been created

@@ -1,0 +1,110 @@
+
+Easy Configurator, configuration engine  V_3_3 
+
+log created on Thu Sep 07 14:10:38 2023
+
+Analyzing the project file
+
+Easy Configurator project FEI_4.prj
+
+OUTPUTS_TAG
+Line 4 --- type                    uint32_t
+Line 5 --- Output1                 uint32_t
+INPUTS_TAG
+Line 7 --- Slot1                   uint32_t
+Line 8 --- Slot1_missed            uint32_t
+Line 9 --- Slot1_valid             uint32_t
+INFO_TAG
+0x00000EEA
+Fargo Engineering Inc.
+0xBEEF
+0x11
+FEI_SLAVE_v7
+FEI_SLAVE_v7
+END_TAG
+
+The FEI_4.prj configuration file is correct
+
+ByteNumOut 8
+ByteNumIn  12
+PdoNumOut  2
+PdoNumIn   3
+
+Creating the FEI_4.xml file
+
+PROJECT_TAG   FEI_4.prj
+VENDOID_TAG   00000EEA
+VEN_NAM_TAG   Fargo Engineering Inc.
+PRO_COD_TAG   BEEF
+REVISIO_TAG   11
+DEV_NAM_TAG   FEI_SLAVE_v7
+DEV_NAM_TAG   FEI_SLAVE_v7
+
+FIRST_TAG
+
+Output entries
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>1</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>type</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>2</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Output1</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+
+Input entries
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>1</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot1</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>2</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot1_missed</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>3</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Slot1_valid</Name>
+            <DataType>UDINT</DataType>
+          </Entry>
+
+LAST_TAG
+
+The FEI_4.xml file has been created
+
+Creating the FEI_4.h file
+
+#define CUST_BYTE_NUM_OUT	8
+#define CUST_BYTE_NUM_IN	12
+#define TOT_BYTE_NUM_ROUND_OUT	8
+#define TOT_BYTE_NUM_ROUND_IN	12
+
+
+Output entries
+		uint32_t    type;
+		uint32_t    Output1;
+
+Input entries
+		uint32_t    Slot1;
+		uint32_t    Slot1_missed;
+		uint32_t    Slot1_valid;
+
+The FEI_4.h file has been created
+
+Creating the FEI_4.bin file
+
+
+The FEI_4.bin file has been created
